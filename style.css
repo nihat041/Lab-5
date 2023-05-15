@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    width: 350px;
+    height: 1000px;
+    background-color: #F5F5F5;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.navbar h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.navbar span {
+    font-size: 40px;
+    color: rgb(188, 188, 188);
+}
+
+.links {
+    margin-top: 100px;
+}
+
+.links p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.links a {
+    color: rgb(188, 188, 188);
+    transition: all 0.3s;
+}
+
+.links a:hover {
+    color: rgb(0, 0, 0);
+    transition: all 0.2s;
+    font-size: 20px;
+}
+
+.links .home {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.ft {
+    margin-top: 80px;
+}
+
+.ft p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(188, 188, 188);
+}
+
+.ft a {
+    color: #F0642C;
+}
+
+.social {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.social a {
+    color: rgb(80, 80, 80);
+    padding: 8px;
+    transition: all 0.3s;
+}
+
+.social a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.main {
+    margin-left: 350px;
+}
+
+.avatar {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(188, 188, 188);
+    font-weight: 300;
+}
+
+.hello h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    margin-top: 20px;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.more a {
+    color: rgb(188, 188, 188);
+    border-bottom: 1px solid rgb(188, 188, 188);
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+.more a:hover {
+    color: rgb(155, 155, 155);
+}
+
+#calculator {
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    background-color: slategray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top:100px;
+    margin-right: 300px;
+}
+
+#screen {
+    padding: 10px 0px 10px 0px;
+}
+
+#result {
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    text-align: right;
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    border: none;
+}
